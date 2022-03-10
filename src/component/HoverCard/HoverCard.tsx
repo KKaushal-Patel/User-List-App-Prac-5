@@ -1,5 +1,5 @@
 import styles from "./HoverCard.module.css";
-import img from "../../img/download.jpeg";
+import img from "../../img/dhaval.jpeg";
 
 const HoverCard = () => {
   return (
@@ -7,8 +7,8 @@ const HoverCard = () => {
       <div className={styles["card_inner"]}>
         <div className={styles.CardHeader}>
           <img src={img} alt="img" />
-          <h2>Leon Hunt</h2>
-          <p>dfhdjhfd@jfjdk.biz</p>
+          <h2>Patricia Lebsack</h2>
+          <p>Sincere@april.biz</p>
           <h2>Your Plan: Standard</h2>
           <button className={styles["btn_active_user"]}>Active User</button>
         </div>

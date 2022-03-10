@@ -1,11 +1,16 @@
 .hero_main_card {
-  height: 368px;
-  width: 262px;
+  height: 400px;
+  width: 18vw;
   background-color: white;
   border-radius: 25px;
   color: #524a4a;
   font-family: arial;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: absolute;
+    right: -5%;
+    top: 17%;
 }
 .card_inner,
 .CardHeader,
@@ -33,7 +38,9 @@
 .CardHeader p {
   font-size: 0.8rem;
 }
-
+p {
+  margin-bottom: 0;
+}
 .CardHeader .btn_active_user {
   outline: 0;
   border: 0;
@@ -45,30 +52,29 @@
   padding: 9px;
   width: 65%;
 }
-.CardHeader .btn_active_user:hover{
-    background-color: rgb(240, 144, 18);
+.CardHeader .btn_active_user:hover {
+  background-color: rgb(240, 144, 18);
 }
 .planUser {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin-top: 22px;
 }
 .planUser label {
   font-size: 0.8rem;
 }
-.planUser meter{
-    width:100%;
-
+.planUser meter {
+  width: 100%;
 }
 meter::-webkit-meter-optimum-value {
-    background: rgb(230, 138, 19);
+  background: rgb(230, 138, 19);
 }
 .numberData {
   display: flex;
   justify-content: space-around;
   width: 90%;
-  margin-top: 19px;
+  margin-top: 15px;
 }
 .numberData .dataLeft,
 .dataRight {
@@ -77,8 +83,8 @@ meter::-webkit-meter-optimum-value {
   align-items: center;
   flex-direction: column;
 }
-.numberData h2{
-    letter-spacing: 1.2px;
+.numberData h2 {
+  letter-spacing: 1.2px;
 }
 .numberData .middle_bar {
   border-left: 1px solid;
