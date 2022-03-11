@@ -1,5 +1,6 @@
 import styles from "./UserListItems.module.css";
 import Users from "../Users/Users";
+import Dummy_userList from "../../Dummy_userList";
 
 const UserListItems = () => {
   return (
@@ -10,14 +11,18 @@ const UserListItems = () => {
           <div>Status</div>
           <div>Access</div>
         </div>
-        <Users />
-        <Users />
-        <Users />
-        <Users />
-        <Users />
-        <Users />
-        <Users />
-        <Users />
+        {Dummy_userList.map((user) => {
+          return (
+            <Users
+              key={user.id}
+              id={user.id}
+              name={user.name}
+              email={user.email}
+              isOwner={user.isOwner}
+              isActive= {user.isActive}
+            />
+          );
+        })}
       </div>
     </div>
   );

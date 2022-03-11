@@ -1,16 +1,15 @@
 .hero_main_card {
   height: 400px;
-  width: 18vw;
+  width: 245px;
   background-color: white;
   border-radius: 25px;
   color: #524a4a;
   font-family: arial;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    position: absolute;
-    right: -5%;
-    top: 17%;
+  box-shadow: rgb(229 229 229 / 10%) 2px 5px 1px 1px,
+    rgb(176 176 189 / 25%) 3px 2px 7px 0px, rgb(34 34 34 / 25%) 3px 2px 7px 0px;
+  position: absolute;
+  right: -5%;
+  top: 17%;
 }
 .card_inner,
 .CardHeader,

@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
   }
   .col1 {
     display: flex;
@@ -11,7 +10,6 @@
     align-items: center;
     margin: 10px 10px;
     width: 320px;
-    /* background: whitesmoke; */
   }
   .col1 img {
     border-radius: 50%;
@@ -19,8 +17,13 @@
     width: 50px;
     margin-right: 13px;
   }
-  .col1 .para {
+  .col1 .name {
     margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .col1 .email{
+    font-size: 0.9rem;
   }
   .status_dropdown,
   .access_dropdown {
@@ -37,12 +40,10 @@
     margin-left: 10px;
     width:100px;
   }
-  /* outline: 0;
-    border: 0; */
-  
-  /* .btn:focus {
+  .select{
     outline: none;
-    box-shadow: none;
-    box-shadow: 0 0 0 0 !important;
-  } */
-  
+    border: 0;
+    background-color: #f2f2f2;
+    padding: 6px;
+    border-radius: 3px;
+  }
